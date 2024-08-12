@@ -57,8 +57,6 @@ const realTimer = document.getElementById("realTimer");
 
 const endTime = Date.now() + 15919000;
 
-const secondsLeft = (endTime - Date.now()) / 1000;
-
 function displayTimer(seconds) {
 	const minutes = Math.floor(seconds / 60);
 	const hours = Math.floor(seconds / 3600);
